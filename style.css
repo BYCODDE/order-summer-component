@@ -16,7 +16,6 @@ body {
   box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
   width: 450px;
   position: relative;
-  height: auto;
 }
 
 #main_img {
@@ -133,7 +132,7 @@ body {
 
   .main_container {
     width: 90%;
-    height: 90%;
+    height: auto;
   }
   #order {
     color: #1f2e55;
