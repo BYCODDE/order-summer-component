@@ -1,4 +1,3 @@
-
 body {
   background-image: url(./backgroundimg.svg);
   background-repeat: no-repeat;
@@ -17,16 +16,12 @@ body {
   box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
   width: 450px;
   position: relative;
-
+  height: auto;
 }
 
-#main_img{
+#main_img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
-}
-
-.top_container {
-  
 }
 
 .bottom_container {
@@ -35,38 +30,38 @@ body {
   align-items: center;
 }
 
-.order_summary{
+.order_summary {
   width: 354px;
-  margin-top: 45px; 
+  margin-top: 45px;
   position: relative;
 }
 
-#order{
-  color: #1F2E55;
+#order {
+  color: #1f2e55;
   text-align: center;
-  font-family: Red Hat Display;
+  font-family: Red Hat Display, sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
 }
-#text{
-  color: #717FA6;
-text-align: center;
-font-family: Red Hat Display;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; 
-width: 354px;
-margin-top: 17px;
+#text {
+  color: #717fa6;
+  text-align: center;
+  font-family: Red Hat Display, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  width: 354px;
+  margin-top: 17px;
 }
-.annual_plan{
+.annual_plan {
   width: 354px;
   height: 98px;
   flex-shrink: 0;
   border-radius: 11px;
-  background: #F7F9FF;
+  background: #f7f9ff;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -75,44 +70,43 @@ margin-top: 17px;
   margin-bottom: 32px;
 }
 
-.music{
+.music {
   margin-right: 60px;
-
 }
-#plan{
-  color: #1F2E55;
-font-family: Red Hat Display;
-font-size: 16px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+#plan {
+  color: #1f2e55;
+  font-family: Red Hat Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
-#price{
-  color: #717FA6;
+#price {
+  color: #717fa6;
   font-family: Red Hat Display;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-#change{
-  color: #382AE1;
-font-family: Red Hat Display;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-decoration-line: underline;
+#change {
+  color: #382ae1;
+  font-family: Red Hat Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
 }
 .payment_cancelOrder {
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-#payment{
+#payment {
   width: 354px;
   height: 50px;
-  background: #382AE1;
+  background: #382ae1;
   border-radius: 11px;
   color: #fff;
   font-family: Red Hat Display;
@@ -121,15 +115,90 @@ text-decoration-line: underline;
   font-weight: 700;
   line-height: normal;
   border: none;
-  
+  box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
 }
-#cancel{
-  color: #717FA6;
-font-family: Red Hat Display;
-font-size: 15px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-margin-top: 35px;
-background-color: #fff;
+#cancel {
+  color: #717fa6;
+  font-family: Red Hat Display;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 35px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+
+
+  .main_container {
+    width: 90%;
+    height: 90%;
+  }
+  #order {
+    color: #1f2e55;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  #text {
+    color: #717fa6;
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    width: 334px;
+  }
+
+  .annual_plan {
+    width: 279px;
+    height: 81px;
+    padding: 16px;
+  }
+
+  .music {
+    margin-right: 35px;
+  }
+  #plan {
+    color: #1f2e55;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  #price {
+    color: #717fa6;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  #change {
+    color: #382ae1;
+    font-family: "Red Hat Display";
+    font-size: 13px;
+  }
+
+  #payment {
+    width: 279px;
+    font-weight: 900;
+  }
+
+  #cancel {
+    color: #717FA6;
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 32px;
+  }
 }
